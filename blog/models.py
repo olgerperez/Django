@@ -7,8 +7,8 @@ class BlogPost(models.Model):
 	body=models.TextField()
 	time=models.DateTimeField()
 
-class BlogPostAdmin(admin.ModelAdmin):
-	list_display = ('title','body','time')
+#class BlogPostAdmin(admin.ModelAdmin):
+#	list_display = ('title','body','time')
 
 
-admin.site.register(BlogPost, BlogPostAdmin)
+#admin.site.register(BlogPost, BlogPostAdmin)
